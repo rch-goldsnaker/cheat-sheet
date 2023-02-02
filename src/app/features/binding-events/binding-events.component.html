@@ -1,0 +1,64 @@
+<div class="card">
+  <div class="card__title">
+    <h2 class="card__title--text">Binding Events</h2>
+  </div>
+  <div class="card__content">
+    <p class="card__description">component.ts</p>
+    <div class="card__code">
+      <pre><code class="language-typescript">{{tscode}}</code></pre>
+    </div>
+    <p class="card__description">component.hmtl</p>
+    <div class="card__code">
+      <pre><code class="language-html">{{htmlcode}}</code></pre>
+    </div>
+    <p class="card__description">Example:</p>
+    <div class="card__example">
+      <button (click)="onSave()">Save</button>
+      <h3>{{onSaveMessage}}</h3>
+    </div>
+  </div>
+  <br>
+  <div class="card__title">
+    <h2 class="card__title--text">Scroll Event</h2>
+  </div>
+  <br>
+  <div class="card__content">
+    <p class="card__description">component.ts</p>
+    <div class="card__code">
+      <pre><code class="language-typescript">{{tscode2}}</code></pre>
+    </div>
+    <p class="card__description">component.hmtl</p>
+    <div class="card__code">
+      <pre><code class="language-html">{{htmlcode2}}</code></pre>
+    </div>
+    <p class="card__description">Example:</p>
+    <div class="card__example">
+      <div class="box" (scroll)="onScroll($event)">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sed, sit repudiandae autem, facere tenetur quaerat beatae omnis quidem veniam ipsa. Voluptates et, dolorem blanditiis magnam consectetur in laboriosam corporis.</p>
+      </div>
+      <p>{{onScrollMessage}}</p>
+    </div>
+  </div>
+  <br>
+  <div class="card__title">
+    <h2 class="card__title--text">keyUp Event</h2>
+  </div>
+  <br>
+  <div class="card__content">
+    <p class="card__description">component.ts</p>
+    <div class="card__code">
+      <pre><code class="language-typescript">{{tscode3}}</code></pre>
+    </div>
+    <p class="card__description">component.hmtl</p>
+    <div class="card__code">
+      <pre><code class="language-html">{{htmlcode3}}</code></pre>
+    </div>
+    <p class="card__description">Example:</p>
+    <div class="card__example">
+      <div (scroll)="onScroll($event)">
+        <input type="text" (keyup)="onKeyUp($event)">
+      </div>
+      <p>{{onKeyUpMessage}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+.card{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  height: 100%;
+  width: 740px;
+
+
+  &__title{
+    width: 100%;
+    &--text{
+      color: #2c3e50;
+      // overwritting angular material styles
+      margin: 0 0 0 0;
+    }
+  }
+
+  &__content{
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  &__description {
+    // overwritting angular material styles
+    color: #2c3e50;
+    margin: 0 0 0 0;
+    border-bottom: 0.8px solid #2c3e50;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &__code {
+    padding: 10px 0px;
+  }
+
+  &__example {
+    border-radius: 5px;
+    background-color: rgba(178, 203, 207, 0.729);
+    padding: 10px 10px;
+    margin: 10px 0;
+  }
+}

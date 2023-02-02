@@ -1,0 +1,42 @@
+.container{
+  margin: 0 auto;
+  width: 80%;
+  background-color: burlywood;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.tscode{
+  background-color: black;
+  color:white;
+  border-radius: 5px;
+  margin: 10px 50px;
+  padding: 10px
+}
+
+.htmlcode {
+  background-color: black;
+  color: yellowgreen;
+  border-radius: 5px;
+  margin: 10px 50px;
+  padding: 10px
+}
+
+.example{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin: 10px 50px;
+  padding: 10px
+}
+
+.description{
+  margin: 10px 50px;
+}
+
+.description--code {
+  margin: 10px 50px;
+  font-size: 0.8rem;
+}
+
+
